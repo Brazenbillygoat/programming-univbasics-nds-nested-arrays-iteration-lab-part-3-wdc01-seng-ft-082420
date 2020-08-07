@@ -11,6 +11,7 @@ def join_nested_strings(src)
     while inner_count < src[count].length
       if src[count][inner_count].is_a(String) == true 
         result_string.concat(" " + src[count][inner_count])
+      end
     
       inner_count += 1
     end
